@@ -29,9 +29,10 @@
         </encoder>
     </appender>
 
-    <logger name="com.example.demo.controller" level="INFO" />
-    <logger name="com.example.demo.dto" level="INFO" />
-    <logger name="com.example.demo.service" level="INFO" />
+    <logger name="com.example.airbnbbackend.controller" level="INFO" />
+    <logger name="com.example.airbnbbackend.dto" level="INFO" />
+    <logger name="com.example.airbnbbackend.service" level="INFO" />
+    <logger name="com.example.airbnbbackend.repository" level="INFO" />
 
     <root level="INFO">
         <appender-ref ref="console" />
